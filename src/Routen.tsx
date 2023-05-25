@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Urls } from "./Data/Urls";
-import { Home } from "./Pages";
+import { Home, Unternehmen } from "./Pages";
 
 export default function Routen() {
   return (
@@ -9,7 +9,7 @@ export default function Routen() {
       <Route path={Urls.Root} element={<Home />} />
 
       {/* Unternehmen */}
-      <Route path={Urls.Unternehmen} element={<>Unternehmen</>} />
+      <Route path={Urls.Unternehmen} element={<Unternehmen />} />
 
       {/* Kompetenzen */}
       <Route path={Urls.Kompetenzen.Root} element={<>Kompetenzen</>} />

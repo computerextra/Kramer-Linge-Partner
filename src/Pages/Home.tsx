@@ -11,7 +11,7 @@ export default function Home() {
             fluid
             rounded
             src="https://placehold.co/1920x1080"
-            alt=""
+            alt="Hr. Kramer und Hr. Linge nebeneinander"
             className="mb-4"
           />
           <Card className="mb-4">
@@ -20,7 +20,7 @@ export default function Home() {
             </Card.Title>
             <Row>
               <Col md={4}>
-                <Image fluid src="https://placehold.co/600x500" alt="" />
+                <Image fluid src="https://placehold.co/600x500" alt="Büro" />
               </Col>
               <Col md={8}>
                 <Card.Body>
