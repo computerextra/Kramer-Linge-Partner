@@ -3,17 +3,22 @@ import { Container, Nav, NavItem, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { Urls } from "../Data/Urls";
 
-export default function Hauptmenü() {
+interface MenüProps {
+  bg: string;
+  variant: string;
+}
+
+export default function Hauptmenü({ bg, variant }: MenüProps) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Container className="mb-5">
+    <Container>
       <Navbar
         expand="lg"
         className="rounded"
         expanded={expanded}
-        bg="primary"
-        variant="dark"
+        bg={bg}
+        variant={variant}
       >
         <Container fluid>
           <NavLink

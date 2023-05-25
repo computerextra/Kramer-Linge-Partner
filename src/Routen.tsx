@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import { Urls } from "./Data/Urls";
+import { Home } from "./Pages";
 
 export default function Routen() {
   return (
     <Routes>
       {/* Home */}
-      <Route path={Urls.Root} element={<>Home</>} />
+      <Route path={Urls.Root} element={<Home />} />
 
       {/* Unternehmen */}
       <Route path={Urls.Unternehmen} element={<>Unternehmen</>} />

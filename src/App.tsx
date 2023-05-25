@@ -1,5 +1,4 @@
-import { Container } from "react-bootstrap";
-import { Hauptmenü, Header } from "./Layout";
+import { Footer, Hauptmenü, Header } from "./Layout";
 import Routen from "./Routen";
 
 function App() {
@@ -8,12 +7,11 @@ function App() {
       {/* Header */}
       <Header />
       {/* Menü */}
-      <Hauptmenü />
-      <Container>
-        {/* Routes */}
-        <Routen />
-      </Container>
+      <Hauptmenü bg="primary" variant="dark" />
+      {/* Routes */}
+      <Routen />
       {/* Footer */}
+      <Footer />
     </>
   );
 }

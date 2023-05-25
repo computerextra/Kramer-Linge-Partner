@@ -1,3 +1,5 @@
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Image } from "react-bootstrap";
 
 export default function Header() {
@@ -10,6 +12,12 @@ export default function Header() {
         alt="Logo"
         style={{ maxHeight: 150 }}
       />
+      <p className="d-none d-sm-block bg-secondary float-end text-light pt-1 pb-1 ps-2 pe-2 text-center rounded">
+        <FontAwesomeIcon icon={faPhone} />{" "}
+        <a href="tel:05615105760" className="text-decoration-none text-light">
+          0561 / 510 576 0
+        </a>
+      </p>
     </Container>
   );
 }
