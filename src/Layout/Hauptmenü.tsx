@@ -77,7 +77,7 @@ export default function Hauptmenü({ bg, variant }: MenüProps) {
               </NavItem>
               <NavItem>
                 <NavLink
-                  to="/"
+                  to={Urls.Ansprechpartner}
                   className="nav-link"
                   onClick={() => setExpanded(false)}
                 >

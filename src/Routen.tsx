@@ -19,6 +19,7 @@ export default function Routen() {
 
       {/* Kontakt */}
       <Route path={Urls.Kontakt} element={<>Kontakt</>} />
+      <Route path={Urls.Ansprechpartner} element={<>Ansprechpartner</>} />
 
       {/* Rechtliches */}
       <Route path={Urls.Impressum} element={<>Impressum</>} />
