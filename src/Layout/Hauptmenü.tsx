@@ -15,25 +15,30 @@ export default function Hauptmenü({ bg, variant }: MenüProps) {
     <Container>
       <Navbar
         expand="lg"
-        className="rounded"
+        className={`rounded`}
         expanded={expanded}
         bg={bg}
         variant={variant}
       >
         <Container fluid>
-          <NavLink
-            to={Urls.Root}
-            className="navbar-brand"
-            onClick={() => setExpanded(false)}
-          >
-            ICON
-          </NavLink>
           <Navbar.Toggle
             aria-controls="navbarNavDropdown"
             onClick={() => setExpanded(expanded ? false : true)}
           />
-          <Navbar.Collapse id="navbarNavDropdown">
-            <Nav className="me-auto">
+          <Navbar.Collapse
+            id="navbarNavDropdown"
+            className="justify-content-around"
+          >
+            <Nav>
+              <NavItem>
+                <NavLink
+                  to={Urls.Root}
+                  className="nav-link"
+                  onClick={() => setExpanded(false)}
+                >
+                  Startseite
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink
                   to={Urls.Unternehmen}
@@ -45,7 +50,7 @@ export default function Hauptmenü({ bg, variant }: MenüProps) {
               </NavItem>
               <NavItem>
                 <NavLink
-                  to={Urls.Kompetenzen.Root}
+                  to={Urls.Kompetenzen}
                   className="nav-link"
                   onClick={() => setExpanded(false)}
                 >
@@ -63,11 +68,20 @@ export default function Hauptmenü({ bg, variant }: MenüProps) {
               </NavItem>
               <NavItem>
                 <NavLink
-                  to={Urls.Kontakt.Root}
+                  to={Urls.Kontakt}
                   className="nav-link"
                   onClick={() => setExpanded(false)}
                 >
                   Kontakt
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  to="/"
+                  className="nav-link"
+                  onClick={() => setExpanded(false)}
+                >
+                  Ansprechpartner
                 </NavLink>
               </NavItem>
             </Nav>

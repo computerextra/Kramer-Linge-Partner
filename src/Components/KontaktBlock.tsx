@@ -2,8 +2,8 @@ import { Container } from "react-bootstrap";
 
 export default function KontaktBlock() {
   return (
-    <Container fluid>
-      <h2 className="text-uppercase">Kontakt</h2>
+    <Container fluid className="text-secondary">
+      <h2>Kontakt</h2>
       <p>Nehmen Sie unverbindlich Kontakt mit uns auf.</p>
       <p>
         <small>

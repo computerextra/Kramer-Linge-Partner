@@ -1,17 +1,18 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { KontaktBlock } from "../Components";
 
+// TODO: PopUps für alle Bilder in Originalgröße!
+
 export default function Unternehmen() {
   return (
     <Container className="mt-5 mb-5">
       <Row>
-        <Col md={2}>
+        <Col lg={2} className="d-none d-lg-block">
           <KontaktBlock />
         </Col>
-        <Col md={10}>
-          <h2 className="text-uppercase text-primary">
-            Ihr Büro, das weiterdenkt
-          </h2>
+        <Col lg={10} md={12}>
+          <h1 className="text-uppercase text-secondary">Unternehmen</h1>
+          <h2 className="text-primary">Ihr Büro, das weiterdenkt</h2>
           <Row>
             <Col md={8}>
               <p>
@@ -47,9 +48,7 @@ export default function Unternehmen() {
             </Col>
           </Row>
           <hr />
-          <h2 className="text-uppercase text-primary">
-            mit dem Prüfingenieur im Haus
-          </h2>
+          <h2 className="text-primary">Mit dem Prüfingenieur im Haus</h2>
           <Row>
             <Col md={8}>
               <p>
@@ -68,7 +67,7 @@ export default function Unternehmen() {
             </Col>
           </Row>
           <hr />
-          <h2 className="text-uppercase text-primary">die beiden Inhaber</h2>
+          <h2 className="text-primary">Die beiden Inhaber</h2>
           <Row>
             <Col md={8}>
               <p>

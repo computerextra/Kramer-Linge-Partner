@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Urls } from "./Data/Urls";
-import { Home, Unternehmen } from "./Pages";
+import { Home, Kompetenzen, Unternehmen } from "./Pages";
 
 export default function Routen() {
   return (
@@ -12,30 +12,13 @@ export default function Routen() {
       <Route path={Urls.Unternehmen} element={<Unternehmen />} />
 
       {/* Kompetenzen */}
-      <Route path={Urls.Kompetenzen.Root} element={<>Kompetenzen</>} />
-      <Route
-        path={Urls.Kompetenzen.Tragwerksplanung}
-        element={<>Tragwerksplanung</>}
-      />
-      <Route
-        path={Urls.Kompetenzen.Ausführungsplanung}
-        element={<>Ausführungsplanung</>}
-      />
-      <Route
-        path={Urls.Kompetenzen.Bauüberwachung}
-        element={<>Bauüberwachung</>}
-      />
-      <Route path={Urls.Kompetenzen.Gutachten} element={<>Gutachten</>} />
+      <Route path={Urls.Kompetenzen} element={<Kompetenzen />} />
 
       {/* Referenzen */}
       <Route path={Urls.Referenzen} element={<>Referenzen</>} />
 
       {/* Kontakt */}
-      <Route path={Urls.Kontakt.Root} element={<>Kontakt</>} />
-      <Route
-        path={Urls.Kontakt.Ansprechpartner}
-        element={<>Ansprechpartner</>}
-      />
+      <Route path={Urls.Kontakt} element={<>Kontakt</>} />
 
       {/* Rechtliches */}
       <Route path={Urls.Impressum} element={<>Impressum</>} />

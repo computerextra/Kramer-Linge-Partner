@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { Hauptmenü } from ".";
 import { Urls } from "../Data/Urls";
 
 export default function Footer() {
@@ -14,8 +13,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <>
-      <Hauptmenü bg="secondary" variant="dark" />
+    <div>
       <Container>
         <p className="text-center">
           &copy; {date} - KRAMER, LINGE + PARTNER -{" "}
@@ -24,6 +22,6 @@ export default function Footer() {
           <NavLink to={Urls.Datenschutz}>DATENSCHUTZ</NavLink>
         </p>
       </Container>
-    </>
+    </div>
   );
 }

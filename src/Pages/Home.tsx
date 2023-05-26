@@ -1,26 +1,43 @@
+import {
+  faCompassDrafting,
+  faEnvelopeOpenText,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, Col, Container, Image, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { Urls } from "../Data/Urls";
 
+const height = "14rem";
+
 export default function Home() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 mb-5">
       <Row>
-        <Col md={6}>
+        <Col md={6} xs={12}>
           <Image
             fluid
             rounded
-            src="https://placehold.co/1920x1080"
+            src="/Images/Inhaber.webp"
             alt="Hr. Kramer und Hr. Linge nebeneinander"
             className="mb-4"
           />
-          <Card className="mb-4">
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
-              Das Unternehmen
+              <NavLink
+                to={Urls.Unternehmen}
+                className="text-decoration-none text-primary"
+              >
+                Das Unternehmen
+              </NavLink>
             </Card.Title>
             <Row>
-              <Col md={4}>
-                <Image fluid src="https://placehold.co/600x500" alt="Büro" />
+              <Col
+                md={4}
+                className="d-flex align-items-center justify-content-center"
+              >
+                <NavLink to={Urls.Unternehmen}>
+                  <Image fluid src="/Images/Logo.webp" alt="Büro" />
+                </NavLink>
               </Col>
               <Col md={8}>
                 <Card.Body>
@@ -35,13 +52,28 @@ export default function Home() {
               </Col>
             </Row>
           </Card>
-          <Card className="mb-4">
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
-              Die Referenzen
+              <NavLink
+                to={Urls.Referenzen}
+                className="text-decoration-none text-primary"
+              >
+                Die Referenzen
+              </NavLink>
             </Card.Title>
             <Row>
-              <Col md={4}>
-                <Image fluid src="https://placehold.co/600x500" alt="" />
+              <Col
+                md={4}
+                className="d-flex align-items-center justify-content-center"
+              >
+                <NavLink to={Urls.Referenzen}>
+                  <Image
+                    fluid
+                    src="/Images/file-regular.webp"
+                    alt="Büro"
+                    style={{ maxHeight: 200 }}
+                  />
+                </NavLink>
               </Col>
               <Col md={8}>
                 <Card.Body>
@@ -58,21 +90,41 @@ export default function Home() {
             </Row>
           </Card>
         </Col>
-        <Col md={6}>
+        <Col md={6} xs={12}>
           <Image
             fluid
             rounded
-            src="https://placehold.co/1920x1080"
+            src="/Images/Buero.webp"
             alt=""
-            className="mb-4"
+            className="mb-4 d-none d-md-block"
           />
-          <Card className="mb-4">
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
-              Das Kompetenzen
+              <NavLink
+                to={Urls.Kompetenzen}
+                className="text-decoration-none text-primary"
+              >
+                Die Kompetenzen
+              </NavLink>
             </Card.Title>
             <Row>
-              <Col md={4}>
-                <Image fluid src="https://placehold.co/600x500" alt="" />
+              <Col
+                md={4}
+                className="d-flex align-items-center justify-content-center"
+              >
+                <NavLink to={Urls.Kompetenzen}>
+                  <FontAwesomeIcon
+                    icon={faCompassDrafting}
+                    style={{
+                      color: "#858585",
+                      width: "100%",
+                      height: "100%",
+                      maxHeight: 200,
+                      maxWidth: 200,
+                    }}
+                    className="img-fluid"
+                  />
+                </NavLink>
               </Col>
               <Col md={8}>
                 <Card.Body>
@@ -82,19 +134,39 @@ export default function Home() {
                     Bauüberwachung sowie für Gutachten.
                   </Card.Text>
                   <Card.Text>
-                    <NavLink to={Urls.Kompetenzen.Root}>
-                      Zu den Kompetenzen
-                    </NavLink>
+                    <NavLink to={Urls.Kompetenzen}>Zu den Kompetenzen</NavLink>
                   </Card.Text>
                 </Card.Body>
               </Col>
             </Row>
           </Card>
-          <Card className="mb-4">
-            <Card.Title className="text-primary fs-3">Der Kontakt</Card.Title>
+          <Card className="mb-4" style={{ minHeight: height }}>
+            <Card.Title className="text-primary fs-3">
+              <NavLink
+                to={Urls.Kontakt}
+                className="text-primary text-decoration-none"
+              >
+                Der Kontakt
+              </NavLink>
+            </Card.Title>
             <Row>
-              <Col md={4}>
-                <Image fluid src="https://placehold.co/600x500" alt="" />
+              <Col
+                md={4}
+                className="d-flex align-items-center justify-content-center"
+              >
+                <NavLink to={Urls.Kontakt}>
+                  <FontAwesomeIcon
+                    icon={faEnvelopeOpenText}
+                    style={{
+                      color: "#858585",
+                      width: "100%",
+                      height: "100%",
+                      maxHeight: 200,
+                      maxWidth: 200,
+                    }}
+                    className="img-fluid"
+                  />
+                </NavLink>
               </Col>
               <Col md={8}>
                 <Card.Body>
@@ -104,7 +176,7 @@ export default function Home() {
                     Ihre E-Mail.
                   </Card.Text>
                   <Card.Text>
-                    <NavLink to={Urls.Kontakt.Root}>Zum Unternehmen</NavLink>
+                    <NavLink to={Urls.Kontakt}>Zum Unternehmen</NavLink>
                   </Card.Text>
                 </Card.Body>
               </Col>
