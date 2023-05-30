@@ -1,2 +1,6 @@
 $primary: rgb(53, 144, 180);
 @import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+.pre-line {
+  white-space: pre-line;
+}

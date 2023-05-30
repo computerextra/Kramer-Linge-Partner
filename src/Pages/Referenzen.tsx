@@ -1,7 +1,9 @@
-import { Accordion, Col, Container, Row } from "react-bootstrap";
+import { Accordion, Col, Container, Row, Table } from "react-bootstrap";
 import { KontaktBlock } from "../Components";
+import { Projekte, Prüfungen } from "../Data";
 
 // TODO: PopUps für alle Bilder in Originalgröße!
+// TODO: Prüfungen und Projekte übertragen
 
 export default function Referenzen() {
   return (
@@ -11,7 +13,7 @@ export default function Referenzen() {
 
         <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Referenzen</h1>
-          <h2 className="text-secondary fs-3">Beispiele aus der Praxis</h2>
+          <h2 className="text-primary fs-3">Beispiele aus der Praxis</h2>
           <p className="text-secondary">
             Kramer, Linge + Partner bedanken sich bei ihren Kunden für die
             vertrauensvolle Zusammenarbeit.
@@ -21,14 +23,56 @@ export default function Referenzen() {
               <Accordion.Header>
                 Referenzliste zu eigenen Projekten (Auswahl)
               </Accordion.Header>
-              <Accordion.Body></Accordion.Body>
+              <Accordion.Body>
+                {/* Map over Projekte */}
+                <Table striped>
+                  <thead>
+                    <tr>
+                      <th>Objekt</th>
+                      <th>Bauherrschaft</th>
+                      <th>Auftraggeber</th>
+                      <th>Jahr</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Projekte.map((project, idx) => (
+                      <tr key={idx}>
+                        <td className="pre-line">{project.Objekt}</td>
+                        <td className="pre-line">{project.Bauherrschaft}</td>
+                        <td className="pre-line">{project.Auftraggeber}</td>
+                        <td className="pre-line">{project.Jahr}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
               <Accordion.Header>
                 Referenzliste zu Bautechnischen Prüfungen (ausgewählte
                 Bauprojekte)
               </Accordion.Header>
-              <Accordion.Body></Accordion.Body>
+              <Accordion.Body>
+                {/* Map over Prüfungen */}
+                <Table striped>
+                  <thead>
+                    <tr>
+                      <th>Objekt</th>
+                      <th>Bauherrschaft</th>
+                      <th>Jahr</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Prüfungen.map((Prüfung, idx) => (
+                      <tr key={idx}>
+                        <td className="pre-line">{Prüfung.Objekt}</td>
+                        <td className="pre-line">{Prüfung.Bauherrschaft}</td>
+                        <td className="pre-line">{Prüfung.Jahr}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              </Accordion.Body>
             </Accordion.Item>
           </Accordion>
         </Col>
