@@ -9,7 +9,7 @@ export default function Header() {
     <>
       <Container
         fluid
-        className="bg-dark d-flex justify-content-center">
+        className="bg-dark d-flex justify-content-center sticky-top">
         <small className="text-white">
           Diese Webseite dient ausschließlich Demonstrationszwecken und ist
           nicht für den Produktiveinsatz vorgesehen.
