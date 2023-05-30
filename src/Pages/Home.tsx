@@ -13,7 +13,8 @@ export default function Home() {
   return (
     <Container className="mt-5 mb-5">
       <Row>
-        <Col md={6} xs={12}>
+        <Col xxl={1} className="d-none d-xxl-block" />
+        <Col xxl={5} md={6} xs={12}>
           <Image
             fluid
             rounded
@@ -36,7 +37,12 @@ export default function Home() {
                 className="d-flex align-items-center justify-content-center"
               >
                 <NavLink to={Urls.Unternehmen}>
-                  <Image fluid src="/Images/Logo.webp" alt="Büro" />
+                  <Image
+                    fluid
+                    src="/Images/Logo.webp"
+                    alt="Büro"
+                    style={{ maxHeight: height }}
+                  />
                 </NavLink>
               </Col>
               <Col md={8}>
@@ -71,7 +77,7 @@ export default function Home() {
                     fluid
                     src="/Images/file-regular.webp"
                     alt="Büro"
-                    style={{ maxHeight: 200 }}
+                    style={{ maxHeight: height }}
                   />
                 </NavLink>
               </Col>
@@ -90,7 +96,7 @@ export default function Home() {
             </Row>
           </Card>
         </Col>
-        <Col md={6} xs={12}>
+        <Col xxl={5} md={6} xs={12}>
           <Image
             fluid
             rounded
@@ -119,8 +125,7 @@ export default function Home() {
                       color: "#858585",
                       width: "100%",
                       height: "100%",
-                      maxHeight: 200,
-                      maxWidth: 200,
+                      maxHeight: height,
                     }}
                     className="img-fluid"
                   />
@@ -161,8 +166,8 @@ export default function Home() {
                       color: "#858585",
                       width: "100%",
                       height: "100%",
-                      maxHeight: 200,
-                      maxWidth: 200,
+                      maxHeight: height,
+                      maxWidth: height,
                     }}
                     className="img-fluid"
                   />
@@ -183,6 +188,7 @@ export default function Home() {
             </Row>
           </Card>
         </Col>
+        <Col xxl={1} className="d-none d-xxl-block" />
       </Row>
     </Container>
   );
