@@ -1,12 +1,24 @@
+import { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { KontaktBlock } from "../Components";
+import { ImageModal, KontaktBlock } from "../Components";
 
 export default function Kontakt() {
+  const [show, setShow] = useState(false);
+  const [path, setPath] = useState("");
+  const [Beschreibung, setBeschreibung] = useState("");
+
+  const handleShow = (path: string, Beschreibung: string) => {
+    setPath(path);
+    setBeschreibung(Beschreibung);
+    setShow(true);
+  };
   return (
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
-        <Col xl={10} lg={12}>
+        <Col
+          xl={10}
+          lg={12}>
           <h1 className="text-uppercase text-secondary">Kontakt</h1>
           <h2 className="fs-3 text-primary">Immer Kompetent beraten</h2>
           <Row className="mt-2">
@@ -30,11 +42,20 @@ export default function Kontakt() {
                 src="https://placehold.co/1920x1080"
                 alt="Gruppenbild"
                 fluid
+                onClick={() =>
+                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                }
               />
             </Col>
           </Row>
         </Col>
       </Row>
+      <ImageModal
+        Path={path}
+        Beschreibung={Beschreibung}
+        show={show}
+        onHide={() => setShow(false)}
+      />
     </Container>
   );
 }

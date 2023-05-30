@@ -5,6 +5,7 @@ import Referenzen from "./Pages/Referenzen";
 import Kontakt from "./Pages/Kontakt";
 import Ansprechpartner from "./Pages/Ansprechpartner";
 import Impressum from "./Pages/Impressum";
+import { Datenschutz } from "./Pages/Datenschutz";
 
 export default function Routen() {
   return (
@@ -27,7 +28,7 @@ export default function Routen() {
 
       {/* Rechtliches */}
       <Route path={Urls.Impressum} element={<Impressum />} />
-      <Route path={Urls.Datenschutz} element={<>Datenschutz</>} />
+      <Route path={Urls.Datenschutz} element={<Datenschutz />} />
     </Routes>
   );
 }

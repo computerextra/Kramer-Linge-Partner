@@ -10,5 +10,13 @@ export interface Ap {
   Mobil?: string;
   Fax?: string;
   Mail: string;
-  Bild?: strin;
+  Bild?: string;
+  handleShow: (path: string, Beschreibung: string) => void;
+}
+
+export interface ImageModelProps {
+  Path: string;
+  Beschreibung: string;
+  show: boolean;
+  onHide: () => void;
 }

@@ -1,14 +1,25 @@
+import { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { KontaktBlock } from "../Components";
-
-// TODO: PopUps für alle Bilder in Originalgröße!
+import { ImageModal, KontaktBlock } from "../Components";
 
 export default function Unternehmen() {
+  const [show, setShow] = useState(false);
+  const [path, setPath] = useState("");
+  const [Beschreibung, setBeschreibung] = useState("");
+
+  const handleShow = (path: string, Beschreibung: string) => {
+    setPath(path);
+    setBeschreibung(Beschreibung);
+    setShow(true);
+  };
+
   return (
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
-        <Col xl={10} lg={12}>
+        <Col
+          xl={10}
+          lg={12}>
           <h1 className="text-uppercase text-secondary">Unternehmen</h1>
           <h2 className="text-primary">Ihr Büro, das weiterdenkt</h2>
           <Row>
@@ -42,6 +53,9 @@ export default function Unternehmen() {
                 fluid
                 rounded
                 alt="https://placehold.co/600x500"
+                onClick={() =>
+                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                }
               />
             </Col>
           </Row>
@@ -61,6 +75,9 @@ export default function Unternehmen() {
                 fluid
                 rounded
                 alt="https://placehold.co/600x500"
+                onClick={() =>
+                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                }
               />
             </Col>
           </Row>
@@ -81,11 +98,20 @@ export default function Unternehmen() {
                 fluid
                 rounded
                 alt="https://placehold.co/600x500"
+                onClick={() =>
+                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                }
               />
             </Col>
           </Row>
         </Col>
       </Row>
+      <ImageModal
+        Path={path}
+        Beschreibung={Beschreibung}
+        show={show}
+        onHide={() => setShow(false)}
+      />
     </Container>
   );
 }

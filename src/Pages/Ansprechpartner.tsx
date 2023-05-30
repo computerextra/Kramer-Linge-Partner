@@ -1,31 +1,63 @@
+import { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { KontaktBlock } from "../Components";
-import type { Ap } from "../types";
+import { ImageModal, KontaktBlock } from "../Components";
 import { Ansprechpartner as ApList } from "../Data/Ansprechpartner";
+import type { Ap } from "../types";
 
 export default function Ansprechpartner() {
+  const [show, setShow] = useState(false);
+  const [path, setPath] = useState("");
+  const [Beschreibung, setBeschreibung] = useState("");
+
+  const handleShow = (path: string, Beschreibung: string) => {
+    setPath(path);
+    setBeschreibung(Beschreibung);
+    setShow(true);
+  };
   return (
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
-        <Col xl={10} lg={12}>
+        <Col
+          xl={10}
+          lg={12}>
           <h1 className="text-uppercase text-secondary">Ansprechpartner</h1>
           <h2 className="text-primary">Wir sind gern für Sie da</h2>
           <hr />
           {ApList &&
             ApList.map((ap, idx) => (
               <>
-                <Ap key={idx} {...ap} />
+                <Ap
+                  key={idx}
+                  {...ap}
+                  handleShow={handleShow}
+                />
                 <hr />
               </>
             ))}
         </Col>
       </Row>
+      <ImageModal
+        Path={path}
+        Beschreibung={Beschreibung}
+        show={show}
+        onHide={() => setShow(false)}
+      />
     </Container>
   );
 }
 
-function Ap({ Name, Zusatz, Zusatz2, Telefon, Mobil, Fax, Mail, Bild }: Ap) {
+function Ap({
+  Name,
+  Zusatz,
+  Zusatz2,
+  Telefon,
+  Mobil,
+  Fax,
+  Mail,
+  Bild,
+  handleShow,
+}: Ap) {
   return (
     <Row className="mb-3">
       <Col xs={4}>
@@ -54,6 +86,9 @@ function Ap({ Name, Zusatz, Zusatz2, Telefon, Mobil, Fax, Mail, Bild }: Ap) {
           rounded
           alt={Name}
           fluid
+          onClick={() =>
+            handleShow(Bild ? Bild : "https://placehold.co/1920x1080", Name)
+          }
         />
       </Col>
     </Row>

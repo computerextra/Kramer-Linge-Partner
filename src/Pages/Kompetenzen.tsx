@@ -1,9 +1,20 @@
 import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
-import { KontaktBlock } from "../Components";
+import { ImageModal, KontaktBlock } from "../Components";
+import { useState } from "react";
 
 // TODO: PopUps für alle Bilder in Originalgröße!
 
 export default function Kompetenzen() {
+  const [show, setShow] = useState(false);
+  const [path, setPath] = useState("");
+  const [Beschreibung, setBeschreibung] = useState("");
+
+  const handleShow = (path: string, Beschreibung: string) => {
+    setPath(path);
+    setBeschreibung(Beschreibung);
+    setShow(true);
+  };
+
   return (
     <Container className="mt-5 mb-5">
       <Row>
@@ -24,6 +35,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col md={8} className="order-md-0">
@@ -56,6 +73,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col md={8} className="order-md-0">
@@ -80,6 +103,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col md={8} className="order-md-0">
@@ -110,6 +139,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col lg={6} md={8} className="order-md-0">
@@ -167,6 +202,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col md={8} className="order-md-0">
@@ -197,6 +238,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col xs={6}>
@@ -205,6 +252,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                 </Row>
@@ -235,6 +288,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col xs={6}>
@@ -243,6 +302,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                 </Row>
@@ -259,6 +324,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col md={8} className="order-0">
@@ -296,6 +367,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                   <Col xs={6}>
@@ -304,6 +381,12 @@ export default function Kompetenzen() {
                       fluid
                       rounded
                       alt=""
+                      onClick={() =>
+                        handleShow(
+                          "https://placehold.co/600x500",
+                          "Platzhalter Bild"
+                        )
+                      }
                     />
                   </Col>
                 </Row>
@@ -312,6 +395,13 @@ export default function Kompetenzen() {
           </Accordion>
         </Col>
       </Row>
+
+      <ImageModal
+        Path={path}
+        Beschreibung={Beschreibung}
+        show={show}
+        onHide={() => setShow(false)}
+      />
     </Container>
   );
 }
