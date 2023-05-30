@@ -7,10 +7,8 @@ export default function Unternehmen() {
   return (
     <Container className="mt-5 mb-5">
       <Row>
-        <Col lg={2} className="d-none d-lg-block">
-          <KontaktBlock />
-        </Col>
-        <Col lg={10} md={12}>
+        <KontaktBlock />
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Unternehmen</h1>
           <h2 className="text-primary">Ihr Büro, das weiterdenkt</h2>
           <Row>

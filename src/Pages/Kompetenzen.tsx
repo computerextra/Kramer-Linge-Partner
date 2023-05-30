@@ -7,11 +7,9 @@ export default function Kompetenzen() {
   return (
     <Container className="mt-5 mb-5">
       <Row>
-        <Col lg={2} className="d-none d-xl-block">
-          <KontaktBlock />
-        </Col>
+        <KontaktBlock />
 
-        <Col lg={10} md={12}>
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Kompetenzen</h1>
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
