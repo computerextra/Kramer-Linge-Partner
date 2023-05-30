@@ -213,16 +213,16 @@ export function Datenschutz() {
           <p>34121 Kassel</p>
           <p>Hessen, Deutschland</p>
           <p>Tel.: 05615105760</p>
-          <p>E-Mail: info@kramer-line.de</p>
+          <p>E-Mail: info [at] kramer-line.de</p>
           <p>Website: https://kramer-linge.de</p>
           <h4>3. Hosting</h4>
           <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
           <p className="fw-bold">All-Inkl</p>
           <p>
-            Anbieter ist die ALL-INKL.COM - Neue Medien M&uuml;nnich, Inh.
-            Ren&eacute; M&uuml;nnich, Hauptstra&szlig;e 68, 02742 Friedersdorf
-            (nachfolgend All-Inkl). Details entnehmen Sie der
-            Datenschutzerkl&auml;rung von All-Inkl:{" "}
+            Anbieter ist die ALL-INKL.COM - Neue Medien Münnich, Inh.
+            Ren&eacute; Münnich, Hauptstraße 68, 02742 Friedersdorf (nachfolgend
+            All-Inkl). Details entnehmen Sie der Datenschutzerklärung von
+            All-Inkl:{" "}
             <a
               href="https://all-inkl.com/datenschutzinformationen/"
               target="_blank"
@@ -234,20 +234,20 @@ export function Datenschutz() {
           <p>
             Die Verwendung von All-Inkl erfolgt auf Grundlage von Art. 6 Abs. 1
             lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer
-            m&ouml;glichst zuverl&auml;ssigen Darstellung unserer Website.
-            Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die
-            Verarbeitung ausschlie&szlig;lich auf Grundlage von Art. 6 Abs. 1
-            lit. a DSGVO und &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die
-            Speicherung von Cookies oder den Zugriff auf Informationen im
-            Endger&auml;t des Nutzers (z.&nbsp;B. Device-Fingerprinting) im
-            Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+            möglichst zuverlässigen Darstellung unserer Website. Sofern eine
+            entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
+            ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und
+            &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von
+            Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers
+            (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die
+            Einwilligung ist jederzeit widerrufbar.
           </p>
           <h4>Auftragsverarbeitung</h4>
           <p>
-            Wir haben einen Vertrag &uuml;ber Auftragsverarbeitung (AVV) zur
-            Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es
-            sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der
-            gew&auml;hrleistet, dass dieser die personenbezogenen Daten unserer
+            Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung
+            des oben genannten Dienstes geschlossen. Hierbei handelt es sich um
+            einen datenschutzrechtlich vorgeschriebenen Vertrag, der
+            gewährleistet, dass dieser die personenbezogenen Daten unserer
             Websitebesucher nur nach unseren Weisungen und unter Einhaltung der
             DSGVO verarbeitet.
           </p>

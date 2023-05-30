@@ -19,3 +19,8 @@ Arbeitszeit: 6 Stunden
 - Design fertiggestellt
 - Neue Datenschutzerklärung generiert.
 - Datenschutzerklärung bereits für Hosting bei All-Inkl angepasst.
+- Letzte Änderungen am Design
+- Seite auf Test Space auf der Computer Extra Domain hochgeladen
+- Kunden die Demo Seite geschickt.
+
+Arbeitszeit: 4 Stunden
