@@ -5,7 +5,7 @@ export const Ansprechpartner: Ap[] = [
     Name: "Dipl.-Ing. Otto Kramer",
     Zusatz: "Prüfingenieur für Baustatik",
     Zusatz2: "Beratender Ingenieur, Nr.: B1749 IngKH",
-    Telefon: "0561 - 510 05 76 10",
+    Telefon: "0561 - 51 05 76 10",
     Mobil: "0151 - 54 27 15 66",
     Mail: "kramer [at] kramer-linge.de",
   },

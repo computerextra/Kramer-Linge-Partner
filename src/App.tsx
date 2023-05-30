@@ -1,13 +1,18 @@
+import useScrollToTop from "./Hooks/useScrollToTop";
 import { Footer, Hauptmenü, Header } from "./Layout";
 import Routen from "./Routen";
 
 function App() {
+  useScrollToTop();
   return (
     <>
       {/* Header */}
       <Header />
       {/* Menü */}
-      <Hauptmenü bg="primary" variant="dark" />
+      <Hauptmenü
+        bg="primary"
+        variant="dark"
+      />
       {/* Routes */}
       <Routen />
       {/* Footer */}
