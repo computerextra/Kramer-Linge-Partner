@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Urls } from "./Data/Urls";
 import { Home, Kompetenzen, Unternehmen } from "./Pages";
+import Referenzen from "./Pages/Referenzen";
 
 export default function Routen() {
   return (
@@ -15,7 +16,7 @@ export default function Routen() {
       <Route path={Urls.Kompetenzen} element={<Kompetenzen />} />
 
       {/* Referenzen */}
-      <Route path={Urls.Referenzen} element={<>Referenzen</>} />
+      <Route path={Urls.Referenzen} element={<Referenzen />} />
 
       {/* Kontakt */}
       <Route path={Urls.Kontakt} element={<>Kontakt</>} />
