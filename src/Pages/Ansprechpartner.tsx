@@ -47,6 +47,10 @@ export default function Ansprechpartner() {
   );
 }
 
+type ApProps = {
+  handleShow: (path: string, Beschreibung: string) => void;
+} & Ap;
+
 function Ap({
   Name,
   Zusatz,
@@ -57,7 +61,7 @@ function Ap({
   Mail,
   Bild,
   handleShow,
-}: Ap) {
+}: ApProps) {
   return (
     <Row className="mb-3">
       <Col xs={4}>

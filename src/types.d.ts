@@ -11,7 +11,6 @@ export interface Ap {
   Fax?: string;
   Mail: string;
   Bild?: string;
-  handleShow: (path: string, Beschreibung: string) => void;
 }
 
 export interface ImageModelProps {
