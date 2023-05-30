@@ -1,5 +1,7 @@
 import { Ap } from "../types";
 
+// TODO: Ansprechpartner hinterlegen
+
 export const Ansprechpartner: Ap[] = [
   {
     Name: "Dipl.-Ing. Otto Kramer",

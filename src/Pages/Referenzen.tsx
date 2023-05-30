@@ -2,16 +2,15 @@ import { Accordion, Col, Container, Row, Table } from "react-bootstrap";
 import { KontaktBlock } from "../Components";
 import { Projekte, Prüfungen } from "../Data";
 
-// TODO: PopUps für alle Bilder in Originalgröße!
-// TODO: Prüfungen und Projekte übertragen
-
 export default function Referenzen() {
   return (
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
 
-        <Col xl={10} lg={12}>
+        <Col
+          xl={10}
+          lg={12}>
           <h1 className="text-uppercase text-secondary">Referenzen</h1>
           <h2 className="text-primary fs-3">Beispiele aus der Praxis</h2>
           <p className="text-secondary">
@@ -25,7 +24,9 @@ export default function Referenzen() {
               </Accordion.Header>
               <Accordion.Body>
                 {/* Map over Projekte */}
-                <Table striped>
+                <Table
+                  striped
+                  responsive>
                   <thead>
                     <tr>
                       <th>Objekt</th>
@@ -54,7 +55,9 @@ export default function Referenzen() {
               </Accordion.Header>
               <Accordion.Body>
                 {/* Map over Prüfungen */}
-                <Table striped>
+                <Table
+                  striped
+                  responsive>
                   <thead>
                     <tr>
                       <th>Objekt</th>

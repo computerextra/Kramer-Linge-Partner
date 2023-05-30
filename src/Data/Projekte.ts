@@ -5,6 +5,8 @@ type Projekt = {
   Jahr: string;
 };
 
+// TODO: Projekte hinterlegen
+
 export const Projekte: Projekt[] = [
   {
     Objekt:
@@ -12,6 +14,6 @@ export const Projekte: Projekt[] = [
     Bauherrschaft:
       "Phoenix Contact GmbH & Co. KG\nFlachsmarktstraße 8-28\n32825 Blomberg",
     Auftraggeber: "Budo Metallbau GmbH\nDaseburger Straße 22-24\n34414 Warburg",
-    Jahr: "2022 / 2023",
+    Jahr: "2022/2023",
   },
 ];

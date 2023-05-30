@@ -64,26 +64,9 @@ function Ap({
 }: ApProps) {
   return (
     <Row className="mb-3">
-      <Col xs={4}>
-        <h3 className="text-primary fs-4">{Name}</h3>
-        {Zusatz && <p>{Zusatz}</p>}
-        {Zusatz2 && <p>{Zusatz2}</p>}
-        <p>
-          {Telefon} <br />
-          {Mobil && (
-            <>
-              {Mobil} <br />
-            </>
-          )}
-          {Fax && (
-            <>
-              {Fax} <br />
-            </>
-          )}
-        </p>
-        <p>E-Mail: {Mail}</p>
-      </Col>
-      <Col xs={8}>
+      <Col
+        md={8}
+        className="order-md-1">
         <Image
           src={Bild ? Bild : "https://placehold.co/1920x1080"}
           style={{ maxHeight: "20rem" }}
@@ -94,6 +77,28 @@ function Ap({
             handleShow(Bild ? Bild : "https://placehold.co/1920x1080", Name)
           }
         />
+      </Col>
+      <Col
+        md={4}
+        className="order-md-0">
+        <h3 className="text-primary fs-4">{Name}</h3>
+        {Zusatz && <p>{Zusatz}</p>}
+        {Zusatz2 && <p>{Zusatz2}</p>}
+        <p>
+          Telefon: <a href={`tel:${Telefon}`}>{Telefon}</a>
+          <br />
+          {Mobil && (
+            <>
+              Mobil: <a href={`tel:${Mobil}`}>{Mobil}</a> <br />
+            </>
+          )}
+          {Fax && (
+            <>
+              Fax: {Fax} <br />
+            </>
+          )}
+        </p>
+        <p>E-Mail: {Mail}</p>
       </Col>
     </Row>
   );

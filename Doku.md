@@ -23,7 +23,4 @@ Arbeitszeit: 6 Stunden
 - Seite auf Test Space auf der Computer Extra Domain hochgeladen
 - Kunden die Demo Seite geschickt.
 
-TODO: Bug in Referenzen: Tabelle ist breiter als Mobile Screen
-TODO: Ansprechpartner: Bilder müssen nach oben, wenn Mobile.
-
 Arbeitszeit: 4 Stunden
