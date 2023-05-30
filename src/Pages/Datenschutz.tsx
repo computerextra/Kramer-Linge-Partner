@@ -10,7 +10,6 @@ export function Datenschutz() {
           xl={10}
           lg={12}>
           <h1 className="text-uppercase text-secondary">Datenschutz</h1>
-
           <p>
             Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen.
             Datenschutz hat einen besonders hohen Stellenwert für die
@@ -25,7 +24,6 @@ export function Datenschutz() {
             eine solche Verarbeitung keine gesetzliche Grundlage, holen wir
             generell eine Einwilligung der betroffenen Person ein.
           </p>
-
           <p>
             Die Verarbeitung personenbezogener Daten, beispielsweise des Namens,
             der Anschrift, E-Mail-Adresse oder Telefonnummer einer betroffenen
@@ -39,7 +37,6 @@ export function Datenschutz() {
             betroffene Personen mittels dieser Datenschutzerklärung über die
             ihnen zustehenden Rechte aufgeklärt.
           </p>
-
           <p>
             Die Kramer, Linge + Partner Ingenieure für Bauwesen PartG mbB hat
             als für die Verarbeitung Verantwortlicher zahlreiche technische und
@@ -52,7 +49,6 @@ export function Datenschutz() {
             auch auf alternativen Wegen, beispielsweise telefonisch, an uns zu
             übermitteln.
           </p>
-
           <h4>1. Begriffsbestimmungen</h4>
           <p>
             Die Datenschutzerklärung der Kramer, Linge + Partner Ingenieure für
@@ -64,12 +60,10 @@ export function Datenschutz() {
             sein. Um dies zu gewährleisten, möchten wir vorab die verwendeten
             Begrifflichkeiten erläutern.
           </p>
-
           <p>
             Wir verwenden in dieser Datenschutzerklärung unter anderem die
             folgenden Begriffe:
           </p>
-
           <ul style={{ listStyle: "none" }}>
             <li>
               <h4>a) personenbezogene Daten</h4>
@@ -205,7 +199,6 @@ export function Datenschutz() {
               </p>
             </li>
           </ul>
-
           <h4>
             2. Name und Anschrift des für die Verarbeitung Verantwortlichen
           </h4>
@@ -215,7 +208,6 @@ export function Datenschutz() {
             Datenschutzgesetze und anderer Bestimmungen mit
             datenschutzrechtlichem Charakter ist die:
           </p>
-
           <p>Kramer, Linge + Partner Ingenieure für Bauwesen PartG mbB</p>
           <p>Kohlenstraße 47a</p>
           <p>34121 Kassel</p>
@@ -223,8 +215,43 @@ export function Datenschutz() {
           <p>Tel.: 05615105760</p>
           <p>E-Mail: info@kramer-line.de</p>
           <p>Website: https://kramer-linge.de</p>
-
-          <h4>3. Erfassung von allgemeinen Daten und Informationen</h4>
+          <h4>3. Hosting</h4>
+          <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
+          <p className="fw-bold">All-Inkl</p>
+          <p>
+            Anbieter ist die ALL-INKL.COM - Neue Medien M&uuml;nnich, Inh.
+            Ren&eacute; M&uuml;nnich, Hauptstra&szlig;e 68, 02742 Friedersdorf
+            (nachfolgend All-Inkl). Details entnehmen Sie der
+            Datenschutzerkl&auml;rung von All-Inkl:{" "}
+            <a
+              href="https://all-inkl.com/datenschutzinformationen/"
+              target="_blank"
+              rel="noopener noreferrer">
+              https://all-inkl.com/datenschutzinformationen/
+            </a>
+            .
+          </p>
+          <p>
+            Die Verwendung von All-Inkl erfolgt auf Grundlage von Art. 6 Abs. 1
+            lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer
+            m&ouml;glichst zuverl&auml;ssigen Darstellung unserer Website.
+            Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die
+            Verarbeitung ausschlie&szlig;lich auf Grundlage von Art. 6 Abs. 1
+            lit. a DSGVO und &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die
+            Speicherung von Cookies oder den Zugriff auf Informationen im
+            Endger&auml;t des Nutzers (z.&nbsp;B. Device-Fingerprinting) im
+            Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+          </p>
+          <h4>Auftragsverarbeitung</h4>
+          <p>
+            Wir haben einen Vertrag &uuml;ber Auftragsverarbeitung (AVV) zur
+            Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es
+            sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der
+            gew&auml;hrleistet, dass dieser die personenbezogenen Daten unserer
+            Websitebesucher nur nach unseren Weisungen und unter Einhaltung der
+            DSGVO verarbeitet.
+          </p>
+          <h4>4. Erfassung von allgemeinen Daten und Informationen</h4>
           <p>
             Die Internetseite der Kramer, Linge + Partner Ingenieure für
             Bauwesen PartG mbB erfasst mit jedem Aufruf der Internetseite durch
@@ -243,7 +270,6 @@ export function Datenschutz() {
             ähnliche Daten und Informationen, die der Gefahrenabwehr im Falle
             von Angriffen auf unsere informationstechnologischen Systeme dienen.
           </p>
-
           <p>
             Bei der Nutzung dieser allgemeinen Daten und Informationen zieht die
             Kramer, Linge + Partner Ingenieure für Bauwesen PartG mbB keine
@@ -264,9 +290,8 @@ export function Datenschutz() {
             Server-Logfiles werden getrennt von allen durch eine betroffene
             Person angegebenen personenbezogenen Daten gespeichert.
           </p>
-
           <h4>
-            4. Routinemäßige Löschung und Sperrung von personenbezogenen Daten
+            5. Routinemäßige Löschung und Sperrung von personenbezogenen Daten
           </h4>
           <p>
             Der für die Verarbeitung Verantwortliche verarbeitet und speichert
@@ -277,7 +302,6 @@ export function Datenschutz() {
             welchen der für die Verarbeitung Verantwortliche unterliegt,
             vorgesehen wurde.
           </p>
-
           <p>
             Entfällt der Speicherungszweck oder läuft eine vom Europäischen
             Richtlinien- und Verordnungsgeber oder einem anderen zuständigen
@@ -285,8 +309,7 @@ export function Datenschutz() {
             personenbezogenen Daten routinemäßig und entsprechend den
             gesetzlichen Vorschriften gesperrt oder gelöscht.
           </p>
-
-          <h4>5. Rechte der betroffenen Person</h4>
+          <h4>6. Rechte der betroffenen Person</h4>
           <ul style={{ listStyle: "none" }}>
             <li>
               <h4>a) Recht auf Bestätigung</h4>
@@ -671,7 +694,7 @@ export function Datenschutz() {
               </p>
             </li>
           </ul>
-          <h4>6. Rechtsgrundlage der Verarbeitung</h4>
+          <h4>7. Rechtsgrundlage der Verarbeitung</h4>
           <p>
             Art. 6 I lit. a DS-GVO dient unserem Unternehmen als Rechtsgrundlage
             für Verarbeitungsvorgänge, bei denen wir eine Einwilligung für einen
@@ -709,9 +732,8 @@ export function Datenschutz() {
             anzunehmen sein könnte, wenn die betroffene Person ein Kunde des
             Verantwortlichen ist (Erwägungsgrund 47 Satz 2 DS-GVO).
           </p>
-
           <h4>
-            7. Berechtigte Interessen an der Verarbeitung, die von dem
+            8. Berechtigte Interessen an der Verarbeitung, die von dem
             Verantwortlichen oder einem Dritten verfolgt werden
           </h4>
           <p>
@@ -720,9 +742,8 @@ export function Datenschutz() {
             unserer Geschäftstätigkeit zugunsten des Wohlergehens all unserer
             Mitarbeiter und unserer Anteilseigner.
           </p>
-
           <h4>
-            8. Dauer, für die die personenbezogenen Daten gespeichert werden
+            9. Dauer, für die die personenbezogenen Daten gespeichert werden
           </h4>
           <p>
             Das Kriterium für die Dauer der Speicherung von personenbezogenen
@@ -731,12 +752,12 @@ export function Datenschutz() {
             sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung
             erforderlich sind.
           </p>
-
           <h4>
-            9. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der
-            personenbezogenen Daten; Erforderlichkeit für den Vertragsabschluss;
-            Verpflichtung der betroffenen Person, die personenbezogenen Daten
-            bereitzustellen; mögliche Folgen der Nichtbereitstellung
+            10. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung
+            der personenbezogenen Daten; Erforderlichkeit für den
+            Vertragsabschluss; Verpflichtung der betroffenen Person, die
+            personenbezogenen Daten bereitzustellen; mögliche Folgen der
+            Nichtbereitstellung
           </h4>
           <p>
             Wir klären Sie darüber auf, dass die Bereitstellung
@@ -760,13 +781,11 @@ export function Datenschutz() {
             personenbezogenen Daten bereitzustellen, und welche Folgen die
             Nichtbereitstellung der personenbezogenen Daten hätte.
           </p>
-
-          <h4>10. Bestehen einer automatisierten Entscheidungsfindung</h4>
+          <h4>11. Bestehen einer automatisierten Entscheidungsfindung</h4>
           <p>
             Als verantwortungsbewusstes Unternehmen verzichten wir auf eine
             automatische Entscheidungsfindung oder ein Profiling.
           </p>
-
           <p>
             Diese Datenschutzerklärung wurde durch den
             Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für
