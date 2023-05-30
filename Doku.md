@@ -11,3 +11,11 @@
 - Neue Menüstruktur getestet.
 
 Arbeitszeit: 6 Stunden
+
+## 30.05.2023
+
+- Restliche Seiten erstellt
+- Vergrößerung von Bildern bei Klick
+- Design fertiggestellt
+- Neue Datenschutzerklärung generiert.
+- Datenschutzerklärung bereits für Hosting bei All-Inkl angepasst.
