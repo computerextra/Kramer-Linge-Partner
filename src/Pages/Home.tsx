@@ -61,6 +61,7 @@ export default function Home() {
                     fluid
                     src="/Images/Logo.webp"
                     alt="Büro"
+                    className="ps-1"
                     style={{ maxHeight: height }}
                   />
                 </NavLink>
@@ -95,6 +96,7 @@ export default function Home() {
                 <NavLink to={Urls.Referenzen}>
                   <Image
                     fluid
+                    className="ps-1"
                     src="/Images/file-regular.webp"
                     alt="Büro"
                     style={{ maxHeight: height }}
@@ -151,7 +153,7 @@ export default function Home() {
                       height: "100%",
                       maxHeight: height,
                     }}
-                    className="img-fluid"
+                    className="img-fluid ps-1"
                   />
                 </NavLink>
               </Col>
@@ -193,7 +195,7 @@ export default function Home() {
                       maxHeight: height,
                       maxWidth: height,
                     }}
-                    className="img-fluid"
+                    className="img-fluid ps-1"
                   />
                 </NavLink>
               </Col>
