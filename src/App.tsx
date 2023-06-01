@@ -4,6 +4,7 @@ import Routen from "./Routen";
 
 // TODO: Bilder bearbeiten
 // TODO: Bilder einbinden
+// TODO: Alles testen!
 
 function App() {
   useScrollToTop();

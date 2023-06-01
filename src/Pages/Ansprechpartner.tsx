@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { ImageModal, KontaktBlock } from "../Components";
-import { Ansprechpartner as ApList } from "../Data/Ansprechpartner";
+import { Ansprechpartner as ApList } from "../Data";
 import type { Ap } from "../types";
 
 export default function Ansprechpartner() {

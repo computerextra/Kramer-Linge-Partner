@@ -1,4 +1,5 @@
-import { Prüfungen } from "./Prüfungen";
+import { Ansprechpartner } from "./Ansprechpartner";
 import { Projekte } from "./Projekte";
+import { Prüfungen } from "./Prüfungen";
 
-export { Prüfungen, Projekte };
+export { Prüfungen, Projekte, Ansprechpartner };

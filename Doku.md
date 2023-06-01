@@ -24,3 +24,11 @@ Arbeitszeit: 6 Stunden
 - Kunden die Demo Seite geschickt.
 
 Arbeitszeit: 4 Stunden
+
+## 01.06.2023
+
+- Ansprechpartner von Webseite übernommen
+- Referenzliste zu eigenen Projekten (Auswahl) übernommen
+- Referenzliste zu Bautechnischen Prüfungen (ausgewählte Bauobjekte) übernommen
+
+Arbeitszeit: 2 Stunden

@@ -4,8 +4,8 @@ export interface SideNavProps {
 
 export interface Ap {
   Name: string;
-  Zusatz: string;
-  Zusatz2: string;
+  Zusatz?: string;
+  Zusatz2?: string;
   Telefon: string;
   Mobil?: string;
   Fax?: string;
