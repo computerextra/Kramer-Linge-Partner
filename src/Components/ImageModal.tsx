@@ -17,7 +17,7 @@ export default function ImageModal({
       onHide={onHide}>
       <Modal.Header closeButton />
 
-      <Modal.Body className="d-flex justify-content-center">
+      <Modal.Body>
         <Image
           src={Path}
           alt={Beschreibung}

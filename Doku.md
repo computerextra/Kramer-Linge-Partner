@@ -38,3 +38,4 @@ Arbeitszeit: 2 Stunden
 - Bilder bearbeitet und angepasst.
 - Bilder in ein aktuelles Webformat gebracht und Thumbnails erstellt.
 - Bilder in die Webseite integriert.
+- Webseite in Polypane getestet

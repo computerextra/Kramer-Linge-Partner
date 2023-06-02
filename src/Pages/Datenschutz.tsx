@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { KontaktBlock } from "../Components";
 
-export function Datenschutz() {
+export default function Datenschutz() {
   return (
     <Container className="mt-5 mb-5">
       <Row>

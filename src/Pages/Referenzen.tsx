@@ -48,10 +48,8 @@ export default function Referenzen() {
                 </Table>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item
-              eventKey="1"
-              onClick={() => window.scrollTo(0, 0)}>
-              <Accordion.Header>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header onClick={() => window.scrollTo(0, 0)}>
                 Referenzliste zu Bautechnischen Prüfungen (ausgewählte
                 Bauprojekte)
               </Accordion.Header>
