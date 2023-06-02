@@ -39,3 +39,5 @@ Arbeitszeit: 2 Stunden
 - Bilder in ein aktuelles Webformat gebracht und Thumbnails erstellt.
 - Bilder in die Webseite integriert.
 - Webseite in Polypane getestet
+- Kleinere Fehler behoben
+- Button für "Zurück nach oben" implementiert, sobald die Seite gescrollt wird.
