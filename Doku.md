@@ -41,3 +41,5 @@ Arbeitszeit: 2 Stunden
 - Webseite in Polypane getestet
 - Kleinere Fehler behoben
 - Button für "Zurück nach oben" implementiert, sobald die Seite gescrollt wird.
+
+Arbeitszeit: 2,5 Stunden
