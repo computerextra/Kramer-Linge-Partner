@@ -34,3 +34,7 @@ Arbeitszeit: 4 Stunden
 Arbeitszeit: 2 Stunden
 
 ## 02.06.2023
+
+- Bilder bearbeitet und angepasst.
+- Bilder in ein aktuelles Webformat gebracht und Thumbnails erstellt.
+- Bilder in die Webseite integriert.
