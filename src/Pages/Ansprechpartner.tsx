@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { ImageModal, KontaktBlock } from "../Components";
-import { Ansprechpartner as ApList } from "../Data";
+import {
+  Ansprechpartner as ApList,
+  ImageFallbackOrig,
+  ImageFallbackThumb,
+} from "../Data";
 import type { Ap } from "../types";
 
 export default function Ansprechpartner() {
@@ -60,6 +64,7 @@ function Ap({
   Fax,
   Mail,
   Bild,
+  BildOrig,
   handleShow,
 }: ApProps) {
   return (
@@ -68,13 +73,16 @@ function Ap({
         md={8}
         className="order-md-1">
         <Image
-          src={Bild ? Bild : "https://placehold.co/1920x1080"}
+          src={Bild ? Bild : ImageFallbackThumb}
           style={{ maxHeight: "20rem" }}
           rounded
           alt={Name}
           fluid
           onClick={() =>
-            handleShow(Bild ? Bild : "https://placehold.co/1920x1080", Name)
+            handleShow(
+              BildOrig ? BildOrig : Bild ? Bild : ImageFallbackOrig,
+              Name
+            )
           }
         />
       </Col>

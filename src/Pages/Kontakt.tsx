@@ -39,11 +39,14 @@ export default function Kontakt() {
             </Col>
             <Col md={8}>
               <Image
-                src="https://placehold.co/1920x1080"
-                alt="Gruppenbild"
+                src="/Images/Unternehmen/Team_Thumb.webp"
+                alt="Das Team von Kramer, Linge + Partner"
                 fluid
                 onClick={() =>
-                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                  handleShow(
+                    "/Images/Unternehmen/Team_Orig.webp",
+                    "Das Team von Kramer, Linge + Partner"
+                  )
                 }
               />
             </Col>

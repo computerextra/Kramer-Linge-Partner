@@ -10,15 +10,20 @@ export default function ImageModal({
   return (
     <Modal
       size="lg"
+      fullscreen
       aria-labelledby="BilderVorschau"
       centered
       show={show}
-      onHide={onHide}
-    >
+      onHide={onHide}>
       <Modal.Header closeButton />
 
       <Modal.Body className="d-flex justify-content-center">
-        <Image src={Path} alt={Beschreibung} fluid rounded />
+        <Image
+          src={Path}
+          alt={Beschreibung}
+          fluid
+          rounded
+        />
       </Modal.Body>
       <Modal.Footer className="justify-content-center">
         <p className="text-center">{Beschreibung}</p>

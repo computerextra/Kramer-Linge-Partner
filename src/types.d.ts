@@ -11,6 +11,7 @@ export interface Ap {
   Fax?: string;
   Mail: string;
   Bild?: string;
+  BildOrig?: string;
 }
 
 export interface ImageModelProps {

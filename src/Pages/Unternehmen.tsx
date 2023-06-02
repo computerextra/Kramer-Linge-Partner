@@ -49,12 +49,15 @@ export default function Unternehmen() {
             </Col>
             <Col md={4}>
               <Image
-                src="https://placehold.co/600x500"
+                src="/Images/Unternehmen/Team_Thumb.webp"
                 fluid
                 rounded
-                alt="https://placehold.co/600x500"
+                alt="Das Team von Kramer, Linge + Partner"
                 onClick={() =>
-                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                  handleShow(
+                    "/Images/Unternehmen/Team_Orig.webp",
+                    "Das Team von Kramer, Linge + Partner"
+                  )
                 }
               />
             </Col>
@@ -71,13 +74,10 @@ export default function Unternehmen() {
             </Col>
             <Col md={4}>
               <Image
-                src="https://placehold.co/600x500"
+                src="/Images/Unternehmen/Stempel.webp"
                 fluid
                 rounded
-                alt="https://placehold.co/600x500"
-                onClick={() =>
-                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
-                }
+                alt="Ein Stempel, der auf ein Blatt Papier den Text 'In statischer Hinsicht geprüft' gestempelt hat"
               />
             </Col>
           </Row>
@@ -94,12 +94,15 @@ export default function Unternehmen() {
             </Col>
             <Col md={4}>
               <Image
-                src="https://placehold.co/600x500"
+                src="/Images/Inhaber_Thumb.webp"
+                alt="Hr. Kramer und Hr. Linge nebeneinander"
                 fluid
                 rounded
-                alt="https://placehold.co/600x500"
                 onClick={() =>
-                  handleShow("https://placehold.co/600x500", "Platzhalter Bild")
+                  handleShow(
+                    "/Images/Inhaber_Orig.webp",
+                    "Hr. Kramer und Hr. Linge nebeneinander"
+                  )
                 }
               />
             </Col>

@@ -35,11 +35,14 @@ export default function Home() {
           <Image
             fluid
             rounded
-            src="/Images/Inhaber.webp"
+            src="/Images/Inhaber_Thumb.webp"
             alt="Hr. Kramer und Hr. Linge nebeneinander"
             className="mb-4"
             onClick={() =>
-              handleShow("/Images/Inhaber.webp", "Hr. Kramer und Hr. Linge")
+              handleShow(
+                "/Images/Inhaber_Orig.webp",
+                "Hr. Kramer und Hr. Linge"
+              )
             }
           />
           <Card
@@ -128,7 +131,6 @@ export default function Home() {
             src="/Images/Buero.webp"
             alt="Büro Räume"
             className="mb-4 d-none d-md-block"
-            onClick={() => handleShow("/Images/Buero.webp", "Büro Räume")}
           />
           <Card
             className="mb-4"

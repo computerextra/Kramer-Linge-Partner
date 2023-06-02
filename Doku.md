@@ -32,3 +32,5 @@ Arbeitszeit: 4 Stunden
 - Referenzliste zu Bautechnischen Prüfungen (ausgewählte Bauobjekte) übernommen
 
 Arbeitszeit: 2 Stunden
+
+## 02.06.2023

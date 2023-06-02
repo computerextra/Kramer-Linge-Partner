@@ -2,6 +2,10 @@ import { useState } from "react";
 import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
 import { ImageModal, KontaktBlock } from "../Components";
 
+const IMG = "/Images/Kompetenzen/";
+const THUMB = "_Thumb.webp";
+const ORIG = "_Orig.webp";
+
 export default function Kompetenzen() {
   const [show, setShow] = useState(false);
   const [path, setPath] = useState("");
@@ -33,16 +37,11 @@ export default function Kompetenzen() {
                     md={4}
                     className="order-md-1">
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Helm" + THUMB}
                       fluid
                       rounded
-                      alt=""
-                      onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
-                      }
+                      alt="Ein Helm, ein Zollstock und ein paar Schuhe auf einer Holzplanke"
+                      onClick={() => handleShow(IMG + "Helm" + ORIG, "")}
                     />
                   </Col>
                   <Col
@@ -75,15 +74,12 @@ export default function Kompetenzen() {
                     md={4}
                     className="order-md-1">
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Detailnachweis_1" + THUMB}
+                      alt="Ein Geländer in einer Halle"
                       fluid
                       rounded
-                      alt=""
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Detailnachweis_1" + ORIG, "")
                       }
                     />
                   </Col>
@@ -109,15 +105,12 @@ export default function Kompetenzen() {
                     md={4}
                     className="order-md-1">
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Detailnachweis_2" + THUMB}
                       fluid
                       rounded
-                      alt=""
+                      alt="Eine Aussichtsplattform an einem Hang."
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Detailnachweis_2" + ORIG, "")
                       }
                     />
                   </Col>
@@ -150,15 +143,12 @@ export default function Kompetenzen() {
                     md={4}
                     className="order-md-1">
                     <Image
-                      src="https://placehold.co/600x300"
+                      src={IMG + "Ausfuehrungsplanung" + THUMB}
                       fluid
                       rounded
-                      alt=""
+                      alt="Eine Bauzeichnung einer Brücke."
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Ausfuehrungsplanung" + ORIG, "")
                       }
                     />
                   </Col>
@@ -218,15 +208,12 @@ export default function Kompetenzen() {
                     md={4}
                     className="order-md-1">
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Bautechnische_Pruefung_1" + THUMB}
                       fluid
                       rounded
-                      alt=""
+                      alt="Ein Gerüst mit einem Bauzaun"
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Bautechnische_Pruefung_1" + ORIG, "")
                       }
                     />
                   </Col>
@@ -256,29 +243,23 @@ export default function Kompetenzen() {
                 <Row>
                   <Col xs={6}>
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Bautechnische_Pruefung_2" + THUMB}
                       fluid
                       rounded
-                      alt=""
+                      alt="Eine Asche Bahn. Im Vordergrund ein Geländer."
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Bautechnische_Pruefung_2" + ORIG, "")
                       }
                     />
                   </Col>
                   <Col xs={6}>
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Bautechnische_Pruefung_3" + THUMB}
                       fluid
                       rounded
                       alt=""
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Bautechnische_Pruefung_3" + ORIG, "")
                       }
                     />
                   </Col>
@@ -306,29 +287,23 @@ export default function Kompetenzen() {
                 <Row>
                   <Col xs={6}>
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Bauueberwachung_1" + THUMB}
                       fluid
                       rounded
-                      alt=""
+                      alt="Ein Winkelmesser an einer Schweißnaht"
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Bauueberwachung_1" + ORIG, "")
                       }
                     />
                   </Col>
                   <Col xs={6}>
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Bauueberwachung_2" + THUMB}
                       fluid
                       rounded
-                      alt=""
+                      alt="Eine Schraubverbindung mit nicht korrekt angezogener Schraube."
                       onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
+                        handleShow(IMG + "Bauueberwachung_2" + ORIG, "")
                       }
                     />
                   </Col>
@@ -344,16 +319,11 @@ export default function Kompetenzen() {
                     md={4}
                     className="order-1">
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Gutachten_1" + THUMB}
                       fluid
                       rounded
-                      alt=""
-                      onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
-                      }
+                      alt="Gelbe Plattformen."
+                      onClick={() => handleShow(IMG + "Gutachten_1" + ORIG, "")}
                     />
                   </Col>
                   <Col
@@ -389,30 +359,20 @@ export default function Kompetenzen() {
                 <Row>
                   <Col xs={6}>
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Gutachten_2" + THUMB}
                       fluid
                       rounded
-                      alt=""
-                      onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
-                      }
+                      alt="Ein großer Schornstein mit einem Kran, der vor dem Schornstein steht."
+                      onClick={() => handleShow(IMG + "Gutachten_2" + ORIG, "")}
                     />
                   </Col>
                   <Col xs={6}>
                     <Image
-                      src="https://placehold.co/600x500"
+                      src={IMG + "Gutachten_3" + THUMB}
                       fluid
                       rounded
-                      alt=""
-                      onClick={() =>
-                        handleShow(
-                          "https://placehold.co/600x500",
-                          "Platzhalter Bild"
-                        )
-                      }
+                      alt="Zertifikate"
+                      onClick={() => handleShow(IMG + "Gutachten_3" + ORIG, "")}
                     />
                   </Col>
                 </Row>
