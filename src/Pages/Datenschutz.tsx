@@ -213,7 +213,7 @@ export default function Datenschutz() {
           <p>34121 Kassel</p>
           <p>Hessen, Deutschland</p>
           <p>Tel.: 05615105760</p>
-          <p>E-Mail: info [at] kramer-line.de</p>
+          <p>E-Mail: info [at] kramer-linge.de</p>
           <p>Website: https://kramer-linge.de</p>
           <h4>3. Hosting</h4>
           <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
