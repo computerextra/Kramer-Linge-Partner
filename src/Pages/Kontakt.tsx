@@ -26,7 +26,7 @@ export default function Kontakt() {
               <p className="text-uppercase text-primary">
                 Kramer, Linge + Partner
               </p>
-              <p className="text-primary">Ingenieure für Bauwesen PartG mbH</p>
+              <p className="text-primary">Ingenieure für Bauwesen PartG mbB</p>
               <p>
                 Kohlenstraße 47a <br />
                 34121 Kassel
