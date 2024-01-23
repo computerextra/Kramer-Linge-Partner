@@ -3,8 +3,8 @@
 ## 23.01.2024
 
 - Unternehmen: Name von P. Ulrich eingefügt.
-- Ansprechparnter: Paulina Ulrich hinzugefügt.
-- Bild v. Ulrich bearbeitet und im Fomat angepasst.
+- Ansprechpartner: Paulina Ulrich hinzugefügt.
+- Bild v. Ulrich bearbeitet und im Format angepasst.
 - Referenzen: Projekte: Neue Projekte hinzugefügt
 - Referenzen: Prüfungen: Neue Prüfungen hinzugefügt
 - Alle Abhängigkeiten der Seite aktualisiert.
