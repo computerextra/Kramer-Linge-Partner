@@ -43,7 +43,7 @@ export default function Impressum() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Computer Extra GbmH{" "}
+              Computer Extra GmbH{" "}
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 style={{ color: "#3590b4" }}
