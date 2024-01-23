@@ -69,7 +69,7 @@ export const Ansprechpartner: Ap[] = [
     Name: "Paulina Ulrich, B.Sc.",
     Telefon: "0561 - 51 05 76 16",
     Mail: "urlrich [at] kramer-linge.de",
-    Bild: BildPrefix + "paulina_Orig.webp",
-    BildOrig: BildPrefix + "paulina_Thumb.webp",
+    Bild: BildPrefix + "paulina_Thumb.webp",
+    BildOrig: BildPrefix + "paulina_Orig.webp",
   },
 ];
