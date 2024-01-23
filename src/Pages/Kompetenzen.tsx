@@ -22,9 +22,7 @@ export default function Kompetenzen() {
       <Row>
         <KontaktBlock />
 
-        <Col
-          xl={10}
-          lg={12}>
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Kompetenzen</h1>
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
@@ -33,9 +31,7 @@ export default function Kompetenzen() {
               </Accordion.Header>
               <Accordion.Body>
                 <Row>
-                  <Col
-                    md={4}
-                    className="order-md-1">
+                  <Col md={4} className="order-md-1">
                     <Image
                       src={IMG + "Helm" + THUMB}
                       fluid
@@ -44,9 +40,7 @@ export default function Kompetenzen() {
                       onClick={() => handleShow(IMG + "Helm" + ORIG, "")}
                     />
                   </Col>
-                  <Col
-                    md={8}
-                    className="order-md-0">
+                  <Col md={8} className="order-md-0">
                     <p>
                       Kramer, Linge + Partner ist Ihr zuverlässiges Team für
                       Planungen, bautechnische Prüfung, Überwachung und
@@ -70,9 +64,7 @@ export default function Kompetenzen() {
               <Accordion.Body>
                 <h2 className="text-primary">Ganz sicher Wirtschaftlich</h2>
                 <Row className="mb-3">
-                  <Col
-                    md={4}
-                    className="order-md-1">
+                  <Col md={4} className="order-md-1">
                     <Image
                       src={IMG + "Detailnachweis_1" + THUMB}
                       alt="Ein Geländer in einer Halle"
@@ -83,9 +75,7 @@ export default function Kompetenzen() {
                       }
                     />
                   </Col>
-                  <Col
-                    md={8}
-                    className="order-md-0">
+                  <Col md={8} className="order-md-0">
                     <p>
                       Die Tragwerksplanung ist ein unverzichtbarer Bestandteil
                       der Gebäudeplanung.
@@ -101,9 +91,7 @@ export default function Kompetenzen() {
                   </Col>
                 </Row>
                 <Row>
-                  <Col
-                    md={4}
-                    className="order-md-1">
+                  <Col md={4} className="order-md-1">
                     <Image
                       src={IMG + "Detailnachweis_2" + THUMB}
                       fluid
@@ -114,9 +102,7 @@ export default function Kompetenzen() {
                       }
                     />
                   </Col>
-                  <Col
-                    md={8}
-                    className="order-md-0">
+                  <Col md={8} className="order-md-0">
                     <p>Die Tragwerksplanung umfasst das Leistungsspektrum:</p>
                     <ul>
                       <li>Architektonisch anspruchsvoller Stahlbau</li>
@@ -138,10 +124,7 @@ export default function Kompetenzen() {
               <Accordion.Body>
                 <h2 className="text-primary">Realisierung nach Plan</h2>
                 <Row className="mb-3">
-                  <Col
-                    lg={6}
-                    md={4}
-                    className="order-md-1">
+                  <Col lg={6} md={4} className="order-md-1">
                     <Image
                       src={IMG + "Ausfuehrungsplanung" + THUMB}
                       fluid
@@ -152,10 +135,7 @@ export default function Kompetenzen() {
                       }
                     />
                   </Col>
-                  <Col
-                    lg={6}
-                    md={8}
-                    className="order-md-0">
+                  <Col lg={6} md={8} className="order-md-0">
                     <p>
                       Auf Grundlage der Ausführungsplanung kann das Bauvorhaben
                       realisiert werden. Sie schreibt die Entwurfsplanung und
@@ -204,9 +184,7 @@ export default function Kompetenzen() {
                   Sicher, Wirtschaftlich und Wertbeständig
                 </h2>
                 <Row className="mb-3">
-                  <Col
-                    md={4}
-                    className="order-md-1">
+                  <Col md={4} className="order-md-1">
                     <Image
                       src={IMG + "Bautechnische_Pruefung_1" + THUMB}
                       fluid
@@ -217,9 +195,7 @@ export default function Kompetenzen() {
                       }
                     />
                   </Col>
-                  <Col
-                    md={8}
-                    className="order-md-0">
+                  <Col md={8} className="order-md-0">
                     <p>
                       Kramer, Linge + Partner leisten die bautechnische Prüfung
                       in statisch-konstruktiver Hinsicht. Sie umfasst die
@@ -315,9 +291,7 @@ export default function Kompetenzen() {
               <Accordion.Body>
                 <h2 className="text-primary">Darauf ist zu achten</h2>
                 <Row>
-                  <Col
-                    md={4}
-                    className="order-1">
+                  <Col md={4} className="order-1">
                     <Image
                       src={IMG + "Gutachten_1" + THUMB}
                       fluid
@@ -326,9 +300,7 @@ export default function Kompetenzen() {
                       onClick={() => handleShow(IMG + "Gutachten_1" + ORIG, "")}
                     />
                   </Col>
-                  <Col
-                    md={8}
-                    className="order-0">
+                  <Col md={8} className="order-0">
                     <p>
                       Im Falle eines Schadens an Stahlbauten sind die Bauherren
                       mit einem qualifizierten Schadensgutachten gut beraten.

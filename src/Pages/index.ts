@@ -8,12 +8,12 @@ import NotFound from "./NotFound";
 import Unternehmen from "./Unternehmen";
 
 export {
-  Home,
-  Unternehmen,
-  Kompetenzen,
-  NotFound,
-  Datenschutz,
-  Impressum,
-  Kontakt,
   Ansprechpartner,
+  Datenschutz,
+  Home,
+  Impressum,
+  Kompetenzen,
+  Kontakt,
+  NotFound,
+  Unternehmen,
 };

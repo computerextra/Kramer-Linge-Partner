@@ -6,9 +6,7 @@ export default function Datenschutz() {
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
-        <Col
-          xl={10}
-          lg={12}>
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Datenschutz</h1>
           <p>
             Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen.
@@ -226,7 +224,8 @@ export default function Datenschutz() {
             <a
               href="https://all-inkl.com/datenschutzinformationen/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               https://all-inkl.com/datenschutzinformationen/
             </a>
             .

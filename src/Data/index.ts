@@ -2,7 +2,7 @@ import { Ansprechpartner } from "./Ansprechpartner";
 import { Projekte } from "./Projekte";
 import { Prüfungen } from "./Prüfungen";
 
-export { Prüfungen, Projekte, Ansprechpartner };
+export { Ansprechpartner, Projekte, Prüfungen };
 
 export const ImageFallbackThumb =
   "/Images/Ansprechpartner/Platzhalter_Thumb.webp";

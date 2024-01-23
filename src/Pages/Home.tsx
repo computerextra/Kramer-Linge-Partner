@@ -24,14 +24,8 @@ export default function Home() {
   return (
     <Container className="mt-5 mb-5">
       <Row>
-        <Col
-          xxl={1}
-          className="d-none d-xxl-block"
-        />
-        <Col
-          xxl={5}
-          md={6}
-          xs={12}>
+        <Col xxl={1} className="d-none d-xxl-block" />
+        <Col xxl={5} md={6} xs={12}>
           <Image
             fluid
             rounded
@@ -45,20 +39,20 @@ export default function Home() {
               )
             }
           />
-          <Card
-            className="mb-4"
-            style={{ minHeight: height }}>
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
               <NavLink
                 to={Urls.Unternehmen}
-                className="text-decoration-none text-primary">
+                className="text-decoration-none text-primary"
+              >
                 Das Unternehmen
               </NavLink>
             </Card.Title>
             <Row>
               <Col
                 md={4}
-                className="d-flex align-items-center justify-content-center">
+                className="d-flex align-items-center justify-content-center"
+              >
                 <NavLink to={Urls.Unternehmen}>
                   <Image
                     fluid
@@ -82,20 +76,20 @@ export default function Home() {
               </Col>
             </Row>
           </Card>
-          <Card
-            className="mb-4"
-            style={{ minHeight: height }}>
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
               <NavLink
                 to={Urls.Referenzen}
-                className="text-decoration-none text-primary">
+                className="text-decoration-none text-primary"
+              >
                 Die Referenzen
               </NavLink>
             </Card.Title>
             <Row>
               <Col
                 md={4}
-                className="d-flex align-items-center justify-content-center">
+                className="d-flex align-items-center justify-content-center"
+              >
                 <NavLink to={Urls.Referenzen}>
                   <Image
                     fluid
@@ -121,10 +115,7 @@ export default function Home() {
             </Row>
           </Card>
         </Col>
-        <Col
-          xxl={5}
-          md={6}
-          xs={12}>
+        <Col xxl={5} md={6} xs={12}>
           <Image
             fluid
             rounded
@@ -132,20 +123,20 @@ export default function Home() {
             alt="Büro Räume"
             className="mb-4 d-none d-md-block"
           />
-          <Card
-            className="mb-4"
-            style={{ minHeight: height }}>
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
               <NavLink
                 to={Urls.Kompetenzen}
-                className="text-decoration-none text-primary">
+                className="text-decoration-none text-primary"
+              >
                 Die Kompetenzen
               </NavLink>
             </Card.Title>
             <Row>
               <Col
                 md={4}
-                className="d-flex align-items-center justify-content-center">
+                className="d-flex align-items-center justify-content-center"
+              >
                 <NavLink to={Urls.Kompetenzen}>
                   <FontAwesomeIcon
                     icon={faCompassDrafting}
@@ -173,20 +164,20 @@ export default function Home() {
               </Col>
             </Row>
           </Card>
-          <Card
-            className="mb-4"
-            style={{ minHeight: height }}>
+          <Card className="mb-4" style={{ minHeight: height }}>
             <Card.Title className="text-primary fs-3">
               <NavLink
                 to={Urls.Kontakt}
-                className="text-primary text-decoration-none">
+                className="text-primary text-decoration-none"
+              >
                 Der Kontakt
               </NavLink>
             </Card.Title>
             <Row>
               <Col
                 md={4}
-                className="d-flex align-items-center justify-content-center">
+                className="d-flex align-items-center justify-content-center"
+              >
                 <NavLink to={Urls.Kontakt}>
                   <FontAwesomeIcon
                     icon={faEnvelopeOpenText}
@@ -216,10 +207,7 @@ export default function Home() {
             </Row>
           </Card>
         </Col>
-        <Col
-          xxl={1}
-          className="d-none d-xxl-block"
-        />
+        <Col xxl={1} className="d-none d-xxl-block" />
       </Row>
       <ImageModal
         Path={path}

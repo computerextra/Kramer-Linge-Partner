@@ -8,9 +8,7 @@ export default function Referenzen() {
       <Row>
         <KontaktBlock />
 
-        <Col
-          xl={10}
-          lg={12}>
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Referenzen</h1>
           <h2 className="text-primary fs-3">Beispiele aus der Praxis</h2>
           <p className="text-secondary">
@@ -24,9 +22,7 @@ export default function Referenzen() {
               </Accordion.Header>
               <Accordion.Body>
                 {/* Map over Projekte */}
-                <Table
-                  striped
-                  responsive>
+                <Table striped responsive>
                   <thead>
                     <tr>
                       <th>Objekt</th>
@@ -55,9 +51,7 @@ export default function Referenzen() {
               </Accordion.Header>
               <Accordion.Body>
                 {/* Map over Prüfungen */}
-                <Table
-                  striped
-                  responsive>
+                <Table striped responsive>
                   <thead>
                     <tr>
                       <th>Objekt</th>

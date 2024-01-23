@@ -1,7 +1,7 @@
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Container, Row } from "react-bootstrap";
 import { KontaktBlock } from "../Components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function Impressum() {
   return (
@@ -43,7 +43,7 @@ export default function Impressum() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Computer Extra, Ernst & Jacob KG{" "}
+              Computer Extra GbmH{" "}
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 style={{ color: "#3590b4" }}

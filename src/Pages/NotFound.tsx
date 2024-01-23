@@ -12,7 +12,8 @@ export default function NotFound() {
       <Button
         className="mt-5 mb-5"
         variant="primary"
-        onClick={() => navigate("/")}>
+        onClick={() => navigate("/")}
+      >
         Zur Startseite
       </Button>
     </Container>

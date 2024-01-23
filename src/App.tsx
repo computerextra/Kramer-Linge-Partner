@@ -6,8 +6,6 @@ import useScrollToTop from "./Hooks/useScrollToTop";
 import { Footer, Hauptmenü, Header } from "./Layout";
 import Routen from "./Routen";
 
-// TODO: Alles testen!
-
 function App() {
   useScrollToTop();
 
@@ -34,10 +32,7 @@ function App() {
       {/* Header */}
       <Header />
       {/* Menü */}
-      <Hauptmenü
-        bg="primary"
-        variant="dark"
-      />
+      <Hauptmenü bg="primary" variant="dark" />
 
       {/* Routes */}
       <Routen />
@@ -46,7 +41,8 @@ function App() {
         variant="light"
         size="lg"
         className={`back-to-top border ${hidden ? "d-none" : "d-block"}`}
-        onClick={() => window.scrollTo(0, 0)}>
+        onClick={() => window.scrollTo(0, 0)}
+      >
         <FontAwesomeIcon
           icon={faCircleChevronUp}
           style={{ color: "#3590b4" }}

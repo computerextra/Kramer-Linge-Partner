@@ -14,16 +14,12 @@ export default function ImageModal({
       aria-labelledby="BilderVorschau"
       centered
       show={show}
-      onHide={onHide}>
+      onHide={onHide}
+    >
       <Modal.Header closeButton />
 
       <Modal.Body>
-        <Image
-          src={Path}
-          alt={Beschreibung}
-          fluid
-          rounded
-        />
+        <Image src={Path} alt={Beschreibung} fluid rounded />
       </Modal.Body>
       <Modal.Footer className="justify-content-center">
         <p className="text-center">{Beschreibung}</p>

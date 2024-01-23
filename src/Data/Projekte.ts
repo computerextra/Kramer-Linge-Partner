@@ -8,6 +8,29 @@ type Projekt = {
 export const Projekte: Projekt[] = [
   {
     Objekt:
+      "Klärschlammbehälter L/B/H=10,50m/3,00m/3,00m als Typenkonstruktion mit begehbarem Dach und separatem Stahluntergestell.\nhier:\nStandsicherheitsnachweise und Detailnachweise zu den Stahlbauverbindungen",
+    Bauherrschaft:
+      "nicht explizit festgelegt\n\nDie Aufstellung is an unterschiedlichen Standorten vorgesehen.",
+    Auftraggeber: "SAXWERK GmbH\nGaußscher Bogen 9\n29646 Bispingen",
+    Jahr: "2023/2024",
+  },
+  {
+    Objekt:
+      "Gurtband-Förderbrücke, Länge 240m, im Werk Flandersbach\nhier: Beurteilung des Baubestandes in statischkonstruktiver Hinsicht, Erstellung eines Sanierungs- und Ertüchtigungskonzeptes mit zugehöriger Ausführungsplanung und Kosatenschätzung",
+    Bauherrschaft:
+      "Lhoist Germany - Rhemtalk GmbH\nAm Kalkstein 1\n42489 Wülfrath",
+    Auftraggeber: "wie Bauherr",
+    Jahr: "2023",
+  },
+  {
+    Objekt:
+      "Erweiterung der Produktionskapazität im Werk Kassel\nhier:\nStandsicherheitsnachweise für die zusätzliche Anordnung von Schornsteinen im Baubestand, Beurteilung in statisch-konstruktiver Hinsichtm Nachweisführung für Unterstützungskonstruktionen",
+    Bauherrschaft: "Hexagon Agility Gmbh\nOtto-Hahn-Straße 5\n34123 Kassel",
+    Auftraggeber: "wie Bauherr",
+    Jahr: "2023",
+  },
+  {
+    Objekt:
       "Neubau eines Produktionsgebäudes und Neubau AES-Pavillon on 32825 Blomberg\nhier:\nStandsichertsnachweise und Detailnachweise zu den Glas- und Fassadenbauteilen",
     Bauherrschaft:
       "Phoenix Contact GmbH & Co. KG\nFlachsmarktstraße 8-28\n32825 Blomberg",

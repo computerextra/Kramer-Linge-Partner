@@ -6,6 +6,20 @@ type Prüfung = {
 
 export const Prüfungen: Prüfung[] = [
   {
+    Objekt: "Errichtung eines Hochregallagers in Shouldice/Canada",
+    Bauherrschaft:
+      "Auftraggeber:\nKraft Curing Systems GmbH\nMuehlenberg 2\n49699 Lindern",
+    Jahr: "2023/2024",
+  },
+  {
+    Objekt:
+      "Neubau von Schulcontainern für das Starkenburg-Gymnasium\nin 64646 Heppenheim",
+    Bauherrschaft:
+      "Kreisausschuss des Kreises Bergstraße\nEigenbetrieb Schule und Gebäudewissenschaft\nGraffstraße 5\n64646 Heppenheim",
+    Jahr: "2022/2023",
+  },
+
+  {
     Objekt: "Einbau einer Filteranlage\nUnterstützungskontruktion",
     Bauherrschaft:
       "Zement- und Kalkwerke Otterbein GmbH & Co. KG\nHauptstraße 50\n36137 Großenlüder",

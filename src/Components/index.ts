@@ -1,4 +1,4 @@
-import KontaktBlock from "./KontaktBlock";
 import ImageModal from "./ImageModal";
+import KontaktBlock from "./KontaktBlock";
 
-export { KontaktBlock, ImageModal };
+export { ImageModal, KontaktBlock };

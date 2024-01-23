@@ -1,5 +1,17 @@
 # Dokumentation über Tätigkeiten
 
+## 23.01.2024
+
+- Unternehmen: Name von P. Ulrich eingefügt.
+- Ansprechparnter: Paulina Ulrich hinzugefügt.
+- Bild v. Ulrich bearbeitet und im Fomat angepasst.
+- Referenzen: Projekte: Neue Projekte hinzugefügt
+- Referenzen: Prüfungen: Neue Prüfungen hinzugefügt
+- Alle Abhängigkeiten der Seite aktualisiert.
+- Updates auf Funktion getestet
+- Impressum: KG auf GmbH geändert.
+- Formatierungen innerhalb der Quell-Dateien angepasst.
+
 ## 26.05.2023
 
 - Design angefangen

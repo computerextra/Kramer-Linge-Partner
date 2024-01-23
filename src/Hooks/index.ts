@@ -1,3 +1,3 @@
-import useTitle from "./useTitle"
+import useTitle from "./useTitle";
 
-export {useTitle}
+export { useTitle };

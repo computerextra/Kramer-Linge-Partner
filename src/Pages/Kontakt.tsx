@@ -16,9 +16,7 @@ export default function Kontakt() {
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
-        <Col
-          xl={10}
-          lg={12}>
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Kontakt</h1>
           <h2 className="fs-3 text-primary">Immer Kompetent beraten</h2>
           <Row className="mt-2">

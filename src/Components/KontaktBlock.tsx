@@ -1,4 +1,4 @@
-import { Container, Col } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 
 export default function KontaktBlock() {
   return (

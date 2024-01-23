@@ -17,9 +17,7 @@ export default function Unternehmen() {
     <Container className="mt-5 mb-5">
       <Row>
         <KontaktBlock />
-        <Col
-          xl={10}
-          lg={12}>
+        <Col xl={10} lg={12}>
           <h1 className="text-uppercase text-secondary">Unternehmen</h1>
           <h2 className="text-primary">Ihr Büro, das weiterdenkt</h2>
           <Row>
@@ -35,10 +33,10 @@ export default function Unternehmen() {
               </p>
               <p>
                 Die beiden Partner Otto Kramer und Torsten Linge verfügen
-                zusammen mit den Mitarbeitern Thomas Ernst, Alexander Kunz,
-                Ayhan Aykac und Karl Philipp Wiesemann über eine langjährige
-                Berufserfahrung. Jeannette Wölfert für das Sekretariat
-                komplettiert das Team.
+                zusammen mit den Mitarbeitern Paulina Ulrich, Thomas Ernst,
+                Alexander Kunz, Ayhan Aykac und Karl Philipp Wiesemann über eine
+                langjährige Berufserfahrung. Jeannette Wölfert für das
+                Sekretariat komplettiert das Team.
               </p>
               <p>
                 Im Dienst sicherer, effizienter und wirtschaftlicher Tragwerks-
