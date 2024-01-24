@@ -15,18 +15,12 @@ export const Prüfungen: Prüfung[] = [
     Objekt:
       "Neubau von Schulcontainern für das Starkenburg-Gymnasium\nin 64646 Heppenheim",
     Bauherrschaft:
-      "Kreisausschuss des Kreises Bergstraße\nEigenbetrieb Schule und Gebäudewissenschaft\nGraffstraße 5\n64646 Heppenheim",
+      "Kreisausschuss des Kreises Bergstraße\nEigenbetrieb Schule und Gebäudewissenschaft\nGräffstraße 5\n64646 Heppenheim",
     Jahr: "2022/2023",
   },
 
   {
     Objekt: "Einbau einer Filteranlage\nUnterstützungskontruktion",
-    Bauherrschaft:
-      "Zement- und Kalkwerke Otterbein GmbH & Co. KG\nHauptstraße 50\n36137 Großenlüder",
-    Jahr: "2022/2023",
-  },
-  {
-    Objekt: "Einbau einer Filteranlage Unterstützungskonstruktion",
     Bauherrschaft:
       "Zement- und Kalkwerke Otterbein GmbH & Co. KG\nHauptstraße 50\n36137 Großenlüder",
     Jahr: "2022/2023",

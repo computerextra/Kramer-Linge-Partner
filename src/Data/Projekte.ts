@@ -10,28 +10,28 @@ export const Projekte: Projekt[] = [
     Objekt:
       "Klärschlammbehälter L/B/H=10,50m/3,00m/3,00m als Typenkonstruktion mit begehbarem Dach und separatem Stahluntergestell.\nhier:\nStandsicherheitsnachweise und Detailnachweise zu den Stahlbauverbindungen",
     Bauherrschaft:
-      "nicht explizit festgelegt\n\nDie Aufstellung is an unterschiedlichen Standorten vorgesehen.",
+      "nicht explizit festgelegt\n\nDie Aufstellung ist an unterschiedlichen Standorten vorgesehen.",
     Auftraggeber: "SAXWERK GmbH\nGaußscher Bogen 9\n29646 Bispingen",
     Jahr: "2023/2024",
   },
   {
     Objekt:
-      "Gurtband-Förderbrücke, Länge 240m, im Werk Flandersbach\nhier: Beurteilung des Baubestandes in statischkonstruktiver Hinsicht, Erstellung eines Sanierungs- und Ertüchtigungskonzeptes mit zugehöriger Ausführungsplanung und Kosatenschätzung",
+      "Gurtband-Förderbrücke, Länge 240m, im Werk Flandersbach\nhier: Beurteilung des Baubestandes in statisch-konstruktiver Hinsicht, Erstellung eines Sanierungs- und Ertüchtigungskonzeptes mit zugehöriger Ausführungsplanung und Kostenschätzung",
     Bauherrschaft:
-      "Lhoist Germany - Rhemtalk GmbH\nAm Kalkstein 1\n42489 Wülfrath",
+      "Lhoist Germany - Rheinkalk GmbH\nAm Kalkstein 1\n42489 Wülfrath",
     Auftraggeber: "wie Bauherr",
     Jahr: "2023",
   },
   {
     Objekt:
-      "Erweiterung der Produktionskapazität im Werk Kassel\nhier:\nStandsicherheitsnachweise für die zusätzliche Anordnung von Schornsteinen im Baubestand, Beurteilung in statisch-konstruktiver Hinsichtm Nachweisführung für Unterstützungskonstruktionen",
-    Bauherrschaft: "Hexagon Agility Gmbh\nOtto-Hahn-Straße 5\n34123 Kassel",
+      "Erweiterung der Produktionskapazität im Werk Kassel\nhier:\nStandsicherheitsnachweise für die zusätzliche Anordnung von Schornsteinen im Baubestand, Beurteilung in statisch-konstruktiver Hinsicht mit Nachweisführung für Unterstützungskonstruktionen",
+    Bauherrschaft: "Hexagon Agility GmbH\nOtto-Hahn-Straße 5\n34123 Kassel",
     Auftraggeber: "wie Bauherr",
     Jahr: "2023",
   },
   {
     Objekt:
-      "Neubau eines Produktionsgebäudes und Neubau AES-Pavillon on 32825 Blomberg\nhier:\nStandsichertsnachweise und Detailnachweise zu den Glas- und Fassadenbauteilen",
+      "Neubau eines Produktionsgebäudes und Neubau AES-Pavillon on 32825 Blomberg\nhier:\nStandsicherheitsnachweise und Detailnachweise zu den Glas- und Fassadenbauteilen",
     Bauherrschaft:
       "Phoenix Contact GmbH & Co. KG\nFlachsmarktstraße 8-28\n32825 Blomberg",
     Auftraggeber: "Budo Metallbau GmbH\nDaseburger Straße 22-24\n34414 Warburg",
@@ -72,9 +72,9 @@ export const Projekte: Projekt[] = [
   },
   {
     Objekt:
-      "PXL-Anlage Abwärmenutzung im Werk PCK Raffinierie GmbH, 16303 Schwedt/Oder\nhier:\nStandsicherheitsnachweise und Schal- und Bewehrungsplanung",
+      "PXL-Anlage Abwärmenutzung im Werk PCK Raffinerie GmbH, 16303 Schwedt/Oder\nhier:\nStandsicherheitsnachweise und Schal- und Bewehrungsplanung",
     Bauherrschaft:
-      "PCK Raffinierie GmbH\nPassower Chaussee 111\n16303 Schwedt/Oder",
+      "PCK Raffinerie GmbH\nPassower Chaussee 111\n16303 Schwedt/Oder",
     Auftraggeber:
       "RöHrs Industrieanlagen GmbH\nCeller Straße 101-103\n29614 Soltau",
     Jahr: "2021",
