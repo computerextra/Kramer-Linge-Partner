@@ -8,6 +8,30 @@ type Projekt = {
 export const Projekte: Projekt[] = [
   {
     Objekt:
+      "Nachrechnung Kranbahnkonstruktion für einen Kranaustausch\nhier: Standsicherheitsnachweis und Lastvergleich",
+    Bauherrschaft:
+      "Schmidtsche Schack/ARVOS GmbH\nEllenbacher Straße 10\n34123 Kassel",
+    Auftraggeber: "wie Bauherr",
+    Jahr: "2024",
+  },
+  {
+    Objekt:
+      "Berechnung von 7 VA-Rohrbrücken für den Neubau einer Brauerei\nhier: Standsicherheitsnachweise und Detailnachweise zum Stahlbau",
+    Bauherrschaft: "Brasserie Valaisanne\nCH-1963 Vetroz /Schweiz",
+    Auftraggeber:
+      "BFI Stahlbausysteme GmbH & Co. KG\nAnton-Böhlen-Str. 27-29\n4414 Warburg",
+    Jahr: "2024",
+  },
+  {
+    Objekt:
+      "Berechnung einer Freiflächen-photovoltaikanlage\nhier: Standsicherheitsnachweise zum Stahlbau und zur Gründung",
+    Bauherrschaft: "Solarimo GmbH\nElla-Barowsky-Straße 44\n10829 Berlin",
+    Auftraggeber:
+      "KÖNIG Profilsysteme GmbH & Co. KG\nNienhagener Straße 30\n37186 Moringen",
+    Jahr: "2024",
+  },
+  {
+    Objekt:
       "Klärschlammbehälter L/B/H=10,50m/3,00m/3,00m als Typenkonstruktion mit begehbarem Dach und separatem Stahluntergestell.\nhier:\nStandsicherheitsnachweise und Detailnachweise zu den Stahlbauverbindungen",
     Bauherrschaft:
       "nicht explizit festgelegt\n\nDie Aufstellung ist an unterschiedlichen Standorten vorgesehen.",

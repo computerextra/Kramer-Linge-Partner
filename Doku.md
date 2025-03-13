@@ -1,5 +1,19 @@
 # Dokumentation über Tätigkeiten
 
+## 13.03.2025
+
+- Update der Abhängigkeiten
+  - Font-Awesome Icons Ver. 6.5.1 -> 6.7.2
+  - Bootstrap Ver. 5.3.2 -> 5.3.3
+  - React Ver. 18.2.0 -> 19.0.0
+  - React Router Ver. 6.21.3 -> 7.3.0
+  - Typescript Ver. 5.3.3 -> 5.8.2
+  - Vite Ver. 4.5.2 -> 6.2.1
+- Referenzen:
+  - Projekte: Neue Projekte hinzugefügt.
+  - Prüfungen: Neue Prüfungen hinzugefügt.
+- Updates auf Funktion getestet.
+
 ## 23.01.2024
 
 - Unternehmen: Name von P. Ulrich eingefügt.

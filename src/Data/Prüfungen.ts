@@ -6,6 +6,40 @@ type Prüfung = {
 
 export const Prüfungen: Prüfung[] = [
   {
+    Objekt:
+      "Errichtung einer Klassenzimmercontaineranlage für das Hohenstaufen-Gymnasium in 73033 Göppingen",
+    Bauherrschaft:
+      "Stadt Göppingen\nFachbereich Immobilien-wirtschaft,\nReferat Hochbau\nNördliche Ringstraße 35\n73033 Göppingen",
+    Jahr: "2024",
+  },
+  {
+    Objekt: "Neubau einer Mobilfunkanlage in Ringgau",
+    Bauherrschaft:
+      "Deutsche Funkturm GmbH\nRV Hamburg\nÜberseering 2\n22297 Hamburg",
+    Jahr: "2024",
+  },
+  {
+    Objekt:
+      "Erneuerung der Rauchgasreinigung RGR im Kraftwerk\nDennhäuser Straße 122, 34134 Kassel",
+    Bauherrschaft:
+      "Städtischen Werke Energie + Wärme GmbH\nKönigstor 3-13\nMuehlenberg 2\n34117 Kassel",
+    Jahr: "2024/2025",
+  },
+  {
+    Objekt:
+      "Errichtung eines temporären Theatergebäudes mit Nebengebäuden und Sprinklertank",
+    Bauherrschaft:
+      "Gemeinnützige Wohnungsbaugesellschaft\nNeue Fahrt 2 \n34117 Kassel",
+    Jahr: "2024/2025",
+  },
+  {
+    Objekt:
+      "Errichtung einer Intralogistik und Gefahrengutlager\nin 52388 Nörvenich",
+    Bauherrschaft:
+      "Fressnapf Logistik Nörvenich GmbH\nFressnapfstraße 1\n52388 Nörvenich",
+    Jahr: "2024/2025",
+  },
+  {
     Objekt: "Errichtung eines Hochregallagers in Shouldice/Canada",
     Bauherrschaft:
       "Auftraggeber:\nKraft Curing Systems GmbH\nMuehlenberg 2\n49699 Lindern",
