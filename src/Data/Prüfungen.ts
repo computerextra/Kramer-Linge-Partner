@@ -9,7 +9,7 @@ export const Prüfungen: Prüfung[] = [
     Objekt:
       "Errichtung einer Klassenzimmercontaineranlage für das Hohenstaufen-Gymnasium in 73033 Göppingen",
     Bauherrschaft:
-      "Stadt Göppingen\nFachbereich Immobilien-wirtschaft,\nReferat Hochbau\nNördliche Ringstraße 35\n73033 Göppingen",
+      "Stadt Göppingen\nFachbereich Immobilienwirtschaft,\nReferat Hochbau\nNördliche Ringstraße 35\n73033 Göppingen",
     Jahr: "2024",
   },
   {

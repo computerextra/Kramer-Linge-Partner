@@ -24,7 +24,7 @@ export const Projekte: Projekt[] = [
   },
   {
     Objekt:
-      "Berechnung einer Freiflächen-photovoltaikanlage\nhier: Standsicherheitsnachweise zum Stahlbau und zur Gründung",
+      "Berechnung einer Freiflächen-Photovoltaikanlage\nhier: Standsicherheitsnachweise zum Stahlbau und zur Gründung",
     Bauherrschaft: "Solarimo GmbH\nElla-Barowsky-Straße 44\n10829 Berlin",
     Auftraggeber:
       "KÖNIG Profilsysteme GmbH & Co. KG\nNienhagener Straße 30\n37186 Moringen",
